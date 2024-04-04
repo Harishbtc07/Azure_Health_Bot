@@ -139,7 +139,7 @@
 #         return None
 
 # if __name__ == "__main__":
-#     jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnROYW1lIjoiaGVhbHRoYm90LXBvYy0xLWVvc2ozOTciLCJpYXQiOjE3MTEwMTM1NDV9.LeBcEr9XELw7ZVe9PLScZ0KBYfR8UpAdYcLD7w_EW3U"
+#     jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnROYW1lIjoiaGVhbHRoYm90LXBvYy0xLWVvc2ozOTciLCJpYXQiOjE3MTE3MTg1NTJ9.hzyc7eY1xcuQxvI7WEMDPUBbG-dGe9SYPg1bPhX_nI0"
 #     health_bot_name = "healthbot-poc-1"
 #     resource_group = "POC_HealthBot"
 #     # scenario_id = "Extend_triage_with_handoff"
@@ -207,8 +207,6 @@ def home():
 
 if __name__ == "__main__":
     app.run(debug=True, port=7282)
-
-
 
 
 
